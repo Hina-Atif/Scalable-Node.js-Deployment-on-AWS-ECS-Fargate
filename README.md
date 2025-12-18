@@ -22,11 +22,7 @@ Before pushing to the cloud, I authenticated the local terminal with the AWS ECR
 
 ECR Login: Authenticated using the AWS CLI.
 
-Docker Tagging: Prepared the image with the specific ECR Repository URI.
-
-![01-aws-ecr-login png](https://github.com/user-attachments/assets/4d7e5dc8-fe51-4c05-b53c-97dad9a7b4fe)
-![02-docker-image-tagging png](https://github.com/user-attachments/assets/9340b75e-3198-483b-aff6-f7a9ae6c4a14)
-
+Docker Tagging: Prepared the image with the specific ECR Repository URI
 
 
 2. Pushing to Amazon ECR
@@ -41,6 +37,42 @@ Networking: Set up Port Mapping for port 8000 to allow web traffic.
 
 Compute: Allocated 2 vCPU (2048 units) and 8 GiB Memory.
 
+## 📸 Project Screenshots
+
+### 🔐 AWS ECR Authentication
+![ECR Login](screenshots/01-aws-ecr-login.png.jpeg)
+
+### 🏷️ Docker Image Tagging
+![Docker Tagging](screenshots/02-docker-image-tagging.png.jpeg)
+
+### 🚀 Docker Image Push to ECR
+![Docker Push](screenshots/03-docker-push-ecr.png.jpeg)
+
+### 📦 Image Stored in ECR
+![ECR Registry](screenshots/04-ecr-registry-stored.png.jpeg)
+
+### 🧩 ECS Task Definition
+![Task Definition](screenshots/05-ecs-task-definition.png.jpeg)
+
+### 🌐 Port Mapping Configuration
+![Port Mapping](screenshots/06-network-port-mapping.png.jpeg)
+
+### 🟢 ECS Cluster Running
+![Cluster Running](screenshots/07-ecs-cluster-running.png.jpeg)
+
+### 📊 ECS Task Metadata
+![Task Metadata](screenshots/08-ecs-task-metadata.png.jpeg)
+
+### 🔍 Container Runtime Details
+![Container Runtime](screenshots/08b-ecs-container-runtime-json.png.jpeg)
+
+### 📜 CloudWatch Logs
+![CloudWatch Logs](screenshots/09-cloudwatch-logs.png.jpeg)
+
+### ✅ Final Application Live
+![Live App](screenshots/10-final-app-live-ui.png.jpeg)
+
+
 🔍 Deep Dive: Container Runtime Metadata
 To ensure the deployment met production specifications, I verified the internal container state. This technical metadata confirms:
 
@@ -53,10 +85,11 @@ Image Integrity: The container is running exactly the version pushed to ECR: pub
 4. Cluster Monitoring & Log Analysis
 After launching the service in the node-app-cluster-hina cluster, I utilised Amazon CloudWatch to monitor real-time logs and verify that the application started successfully.
 
+
 🏆 Final Result
 The application is live and fully accessible. This project proves the ability to manage the entire lifecycle of a containerised application in a professional AWS environment.
 
-![10-final-app-live-ui png](https://github.com/user-attachments/assets/de1d5bcc-dfb1-4bb3-abef-369cbfadaa7f)
+
 
 
 🧠 Key Skills Demonstrated
