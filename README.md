@@ -49,45 +49,6 @@ Cloud & DevOps Engineer
 
 ---
 
-
-## 📸 Project Screenshots
-
-### 🔐 AWS ECR Login
-![ECR Login](./screenshots/01-aws-ecr-login.png.jpeg)
-
-### 🏷️ Docker Image Tagging
-![Docker Tagging](./screenshots/02-docker-image-tagging.png.jpeg)
-
-### 🚀 Docker Image Push to ECR
-![Docker Push](./screenshots/03-docker-push-ecr.png.jpeg)
-
-### 📦 Image Stored in ECR
-![ECR Registry](./screenshots/04-ecr-registry-stored.png.jpeg)
-
-### 🧩 ECS Task Definition
-![Task Definition](./screenshots/05-ecs-task-definition.png.jpeg)
-
-### 🌐 Network Port Mapping
-![Port Mapping](./screenshots/06-network-port-mapping.png.jpeg)
-
-### 🟢 ECS Cluster Running
-![Cluster Running](./screenshots/07-ecs-cluster-running.png.jpeg)
-
-### 📊 ECS Task Metadata
-![Task Metadata](./screenshots/08-ecs-task-metadata.png.jpeg)
-
-### 🔍 Container Runtime Details
-![Container Runtime](./screenshots/08b-ecs-container-runtime-json.png.jpeg)
-
-### 📜 CloudWatch Logs
-![CloudWatch Logs](./screenshots/09-cloudwatch-logs.png.jpeg)
-
-### ✅ Application Live
-![Live App](./screenshots/10-final-app-live-ui.png.jpeg)
-
-
----
-
 ## 🧠 Key Skills Demonstrated
 
 - Containerization using Docker
