@@ -75,5 +75,12 @@ This project reflects real-world DevOps practices by covering the complete lifec
 
 ---
 
+## 📘 Project Blog
+
+A detailed explanation of the architecture, design decisions, and learnings from this project is available on Medium:
+
+🔗 https://medium.com/@hinaatif/deploying-a-scalable-node-js-application-on-aws-ecs-fargate-with-docker
+
+---
 ⭐ If you find this project useful, feel free to star the repository!
 
